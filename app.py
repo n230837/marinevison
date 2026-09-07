@@ -8,7 +8,7 @@ import gradio as gr
 from ultralytics import YOLO
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "best.pt")
+MODEL_PATH = os.path.join(BASE_DIR, "best(1).onnx")
 MAP_PATH = os.path.join(BASE_DIR, "marine_debris_offshore_map.html")
 REPORT_DIR = os.path.join(BASE_DIR, "reports")
 os.makedirs(REPORT_DIR, exist_ok=True)
